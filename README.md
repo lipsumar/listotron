@@ -1,5 +1,14 @@
 # listotron
 
+> A very simple text generator based on lists
+
+![Screenshot](screenshot.png)
+
+## Dev notes
+
+This is a proof-of-concept with a very crude implementation. It should be refactored with a vuex store before making any other change.
+
+
 ## Project setup
 ```
 npm install
