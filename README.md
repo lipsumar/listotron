@@ -2,6 +2,8 @@
 
 > A very simple text generator based on lists
 
+▶️ Try it here: <http://listotron.lipsumar.io>
+
 ![Screenshot](screenshot.png)
 
 ## Dev notes
