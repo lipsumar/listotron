@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && touch dist/.static",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "static-server"
+    "start": "cd dist && static-server --port 3000"
   },
   "dependencies": {
     "core-js": "^2.6.5",
