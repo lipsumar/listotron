@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  main:
+    build: .
+    labels:
+      - "traefik.http.routers.listotron.rule=Host(`listotron.lipsumar.io`)"
+      - "traefik.http.routers.listotron.tls.certresolver=le"
+      - "traefik.http.routers.listotron.entrypoints=websecure"
+
+networks:
+  default:
+    external:
+      name: traefik-external
